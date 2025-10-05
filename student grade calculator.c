@@ -2,8 +2,9 @@
 #include <math.h>
 
 int main() {
-    int p,c,b,m,ch,total;
-    float per;
+    int p,c,b,m,ch;
+    float per,total;
+    printf("Enter marks of Physics,Computer,Biology,Mathematics,Computer");
     scanf("%d %d %d %d %d",&p,&c,&b,&m,&ch);
     total=p+c+b+m+ch;
     per=total/5.0;
