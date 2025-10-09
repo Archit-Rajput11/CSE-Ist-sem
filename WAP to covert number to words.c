@@ -7,6 +7,10 @@ int main()
 {
     int num;
     scanf("%d",&num);
+    if(num==0){
+        printf("Zero");
+    }
+    else{
     int count=0;
     while(num%10 == 0){
         count++;
@@ -57,6 +61,8 @@ int main()
     }
     for(int i=1;i<=count;i++){
         printf("Zero ");
+    }    
     }
     return 0;
 }
+
